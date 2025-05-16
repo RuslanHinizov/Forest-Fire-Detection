@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['fire', 'smoke']
+
+roboflow:
+  workspace: fire-rqbio
+  project: fire-and-smoke-yikzn
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/fire-rqbio/fire-and-smoke-yikzn/dataset/3
